@@ -14,7 +14,9 @@ def collect_metadata(inputFile, outputFile):
         return 
     
     try:
-        urls = [entry['Link'] for entry in data]
+        urls = []
+        [urls.append(url) for search_term in data for url in data[search_term]['urls']]
+        #urls = [entry[search_term]['urls'] for entry in data for search_term in entry]
     except:
         print("There is something wrong with the data format.")
         return
