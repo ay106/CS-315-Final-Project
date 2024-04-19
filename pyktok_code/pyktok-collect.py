@@ -15,15 +15,15 @@ def collect_metadata(inputFile, outputFile):
     
     try:
         urls = []
-        [urls.append(url) for search_term in data for url in data[search_term]['urls']]
-        #urls = [entry[search_term]['urls'] for entry in data for search_term in entry]
+        [urls.append(url) for key in data for url in data[key]['urls']]
+
     except:
         print("There is something wrong with the data format.")
         return
     
     pyk.specify_browser('chrome')
     pyk.save_tiktok_multi_urls(urls,  # list of URLs to visit
-                               False, # don't save videos   
+                               True, # don't save videos   
                 		       outputFile, # csv file
                 		       5) # max time sleep
     
