@@ -1,7 +1,7 @@
 # CS-315-Final-Project
 CS 315 Final Project  <br />
 
-##Pyktok File <br />
+## Pyktok File <br />
 2. cd cs-315-final-project/pyktok_code <br />
 3. python -m venv .project2  (You'll create a new virtual environment to collect data with pyktok) <br />
 4. source .project2/bin/activate (activate it) <br />
@@ -16,10 +16,10 @@ python3 pyktok-collect.py pyktok_test.json results.csv
 Updated what worked for me instead:
 python3 pyktok_code/pyktok-collect.py Urls_Run/urls[INSERTYR].json_1.json results.csv
 
-##Transcription/Subjectivity
+## Transcription/Subjectivity
 
 
-##RUNNING TRANSCRIPTION NOTEBOOK ON A MAC
+## RUNNING TRANSCRIPTION NOTEBOOK ON A MAC
 1. Download ffmpeg-n5.1-latest-linux64-gpl-5.1.tar.xz from this link https://github.com/BtbN/FFmpeg-Builds/releases
 2. Unzip and put it into the folder with the notebook
 3. go into the folder -> bin -> ffmpeg and put ffmpeg into the same folder with the notebook
