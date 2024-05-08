@@ -1,5 +1,5 @@
 # CS-315-Final-Project
-### Background:
+## Background:
 TikTok has attracted attention due to its considerable influence on adolescent
 users. Despite its popularity, concerns linger over the platform’s algorithm,
 which tends to surface limited news content, highlighting the challenges of
