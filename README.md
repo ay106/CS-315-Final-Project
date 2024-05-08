@@ -1,5 +1,6 @@
 # CS-315-Final-Project
 ### Background:
+TikTok has attracted attention due to its considerable influence on adolescent
 users. Despite its popularity, concerns linger over the platform’s algorithm,
 which tends to surface limited news content, highlighting the challenges of
 algorithmic news dissemination and its impact on user engagement with
@@ -16,7 +17,6 @@ news-related videos displayed by TikTok’s search engine exhibit subjective
 characteristics in both verified and unverified content. We also find that
 search results across different accounts are highly personalized and uniquely
 formatted.
-
 
 # Files in this repo: 
 
