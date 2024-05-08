@@ -20,7 +20,7 @@ formatted.
 
 # Files in this repo: 
 
-## Pyktok File <br />
+## 1. Pyktok File <br />
 2. cd cs-315-final-project/pyktok_code <br />
 3. python -m venv .project2  (You'll create a new virtual environment to collect data with pyktok) <br />
 4. source .project2/bin/activate (activate it) <br />
@@ -35,16 +35,16 @@ python3 pyktok-collect.py pyktok_test.json results.csv
 Updated what worked for me instead:
 python3 pyktok_code/pyktok-collect.py Urls_Run/urls[INSERTYR].json_1.json results.csv
 
-## 1. NYT Data
+## 2. NYT Data
 In the `NYT_Code` folder, there are two files:
 
 - `analyze_NYT.ipynb`: This file analyzes the output from `collect_nyt.ipynb`
 - `collect_nyt.ipynb`: This file collects articles from the NYT API
 
-## 2. **compiling_data**
+## 3. **compiling_data**
    **Compiling Scraping Results.ipynb: ** This file contains functions that compile the Pyktok-scraped data on each video with the search terms and video transcript.
 
-## 3. **search_results_scraper**
+## 4. **search_results_scraper**
    **Final Search Scraper.ipynb: ** This file contains functions (based on Selenium) that scrape TikTok's search results page for URLs of videos based on the search terms selected using the NYT API.
 
    **Preliminary Search Scraper.ipynb:** This file contains the code for different approaches to scraping TikTok URLs (including using XPaths) before the Selenium webdriver was chosen for the final scraping. 
