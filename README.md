@@ -1,7 +1,24 @@
 # CS-315-Final-Project
-CS 315 Final Project  <br />
+### Background:
+users. Despite its popularity, concerns linger over the platform’s algorithm,
+which tends to surface limited news content, highlighting the challenges of
+algorithmic news dissemination and its impact on user engagement with
+current events [1]. We aim to delve into the intricate dynamics of digital news
+consumption, examining how the availability of news content influences the
+interaction between traditional news outlets and alternative news sources.
+In our study, we analyze the type of news content TikTok provides to users
+actively searching for news using the platform’s search function. Focusing
+on the US news audience, we use New York Times article keywords to
+query TikTok, then examine the video metadata from both verified and
+unverified accounts. Additionally, we classify the transcripts of these videos
+as subjective or objective. Our findings reveal that a significant portion of the
+news-related videos displayed by TikTok’s search engine exhibit subjective
+characteristics in both verified and unverified content. We also find that
+search results across different accounts are highly personalized and uniquely
+formatted.
 
-#Files in this repo: 
+
+# Files in this repo: 
 
 ## Pyktok File <br />
 2. cd cs-315-final-project/pyktok_code <br />
