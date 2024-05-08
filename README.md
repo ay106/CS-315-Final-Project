@@ -16,7 +16,11 @@ python3 pyktok-collect.py pyktok_test.json results.csv
 Updated what worked for me instead:
 python3 pyktok_code/pyktok-collect.py Urls_Run/urls[INSERTYR].json_1.json results.csv
 
-## Transcription/Subjectivity
+## NYT Data
+In the `NYT_Code` folder, there are two files:
+
+- `analyze_NYT.ipynb`: This file analyzes the output from `collect_nyt.ipynb`
+- `collect_nyt.ipynb`: This file collects articles from the NYT API
 
 
 ## RUNNING TRANSCRIPTION NOTEBOOK ON A MAC
